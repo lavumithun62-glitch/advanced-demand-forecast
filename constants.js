@@ -1,0 +1,40 @@
+```javascript
+const HTTP_STATUS = {
+  OK: 200,
+  CREATED: 201,
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  CONFLICT: 409,
+  INTERNAL_ERROR: 500,
+  SERVICE_UNAVAILABLE: 503
+};
+
+const ERROR_CODES = {
+  VALIDATION_ERROR: 'VALIDATION_ERROR',
+  UNAUTHORIZED: 'UNAUTHORIZED',
+  FORBIDDEN: 'FORBIDDEN',
+  NOT_FOUND: 'NOT_FOUND',
+  INTERNAL_ERROR: 'INTERNAL_ERROR'
+};
+
+const FORECAST_MODELS = {
+  ARIMA: 'arima',
+  PROPHET: 'prophet',
+  LSTM: 'lstm'
+};
+
+const USER_ROLES = {
+  ADMIN: 'admin',
+  MANAGER: 'manager',
+  USER: 'user'
+};
+
+module.exports = {
+  HTTP_STATUS,
+  ERROR_CODES,
+  FORECAST_MODELS,
+  USER_ROLES
+};
+```
